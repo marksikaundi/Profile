@@ -1,4 +1,4 @@
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +11,7 @@ export default function Profile() {
           <div className="flex items-center gap-4">
             <Avatar className="h-20 w-20 border-2 border-orange-600">
               <Image
-                src="/mark sikaundi.jpg"
+                src="/Mark Sikaundi.jpg"
                 width={250}
                 height={250}
                 alt="Mark Sikaundi"
