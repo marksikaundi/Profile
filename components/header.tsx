@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useState } from "react";
@@ -48,7 +47,7 @@ export function Header() {
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <Link href="/about">About</Link>
+          <Link href="/indie-pro">Indie-Pro</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/contact">Contact</Link>
@@ -68,8 +67,8 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t">
           <div className="container px-4 py-3 space-y-3">
-            <Link href="/about" className="block text-sm">
-              About
+            <Link href="/indie-pro" className="block text-sm">
+              Indie-Pro
             </Link>
             <Link href="/projects" className="block text-sm">
               Projects
