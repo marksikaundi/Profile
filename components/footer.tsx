@@ -23,6 +23,16 @@ export function Footer() {
               <div className="space-y-3">
                 <h4 className="text-md font-medium">Projects</h4>
                 <ul className="space-y-2 text-sm">
+                <li>
+                    <Link href="https://devcircleafrica.com" className="hover:underline">
+                      DevCircle Africa
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="https://forum.devcircleafrica.com" className="hover:underline">
+                      Community
+                    </Link>
+                  </li>
                   <li>
                     <Link href="https://lupleg.org" className="hover:underline">
                       Lupleg
