@@ -168,28 +168,28 @@ export default function Profile() {
 
               {/* Maya Innovation */}
               <div className="grid gap-2">
-                <div className="flex items-center justify-between">
+                {/* <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
                     Data Scientist | Maya Innovation
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2022 - 2023
                   </p>
-                </div>
-                <p className="text-gray-500 dark:text-gray-400">
+                </div> */}
+                {/* <p className="text-gray-500 dark:text-gray-400">
                   Worked on the Large Language Model (LLM) project, which
                   specifically focused on developing a language model that can
                   generate human-like text. The model was trained on a large
                   dataset of text and was able to generate text that was
                   indistinguishable from human-written text.
-                </p>
+                </p> */}
                 <div className="grid gap-2">
                   <div className="flex items-center justify-between">
                     <h4 className="text-lg font-medium">
                       Quality Assurance Engineer | Guidizy Ltd
                     </h4>
                     <p className="text-gray-500 dark:text-gray-400">
-                      2023 - Present
+                      2022 - Present
                     </p>
                   </div>
                   <p className="text-gray-500 dark:text-gray-400">
