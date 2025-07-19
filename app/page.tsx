@@ -61,6 +61,8 @@ export default function Profile() {
               <Badge>Reactjs/Nextjs</Badge>
               <Badge>Node.js/Expressjs</Badge>
               <Badge>MongoDB</Badge>
+              <Badge>Convex</Badge>
+              <Badge>REST API</Badge>
               <Badge>SQL</Badge>
               <Badge>Git/GitHub</Badge>
               <Badge>AWS/GCP</Badge>
@@ -68,6 +70,9 @@ export default function Profile() {
               <Badge>Networking</Badge>
               <Badge>Technical Writing</Badge>
               <Badge>WordPress</Badge>
+              <Badge>SEO</Badge>
+              <Badge>CMS</Badge>
+              <Badge>Hosting</Badge>
             </div>
           </div>
           <div className="space-y-2">
@@ -82,7 +87,7 @@ export default function Profile() {
           {/* University Attended */}
           <div className="space-y-2">
             <h3 className="text-xl font-bold">
-              University of Phoenix -{" "}
+              Chalimbana University -{" "}
               <span className="text-orange-600 ">Computer Science</span>
             </h3>
             {/*
@@ -137,7 +142,7 @@ export default function Profile() {
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
-                    Founder & CEO | DevCircle Africa
+                    Software Engineer | DevCircle Africa
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2019 - Present
@@ -157,8 +162,12 @@ export default function Profile() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge>React</Badge>
+                  <Badge>Next.js</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Tailwind CSS</Badge>
                   <Badge>Node.js</Badge>
                   <Badge>MongoDB</Badge>
+                  <Badge>Convex</Badge>
                   <Badge>REST API</Badge>
                   <Badge>HTML/CSS/JS</Badge>
                   <Badge>CMS</Badge>
@@ -168,35 +177,48 @@ export default function Profile() {
 
               {/* Maya Innovation */}
               <div className="grid gap-2">
-                {/* <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
-                    Data Scientist | Maya Innovation
+                    Software Developer | Maya Innovation
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2022 - 2023
                   </p>
-                </div> */}
-                {/* <p className="text-gray-500 dark:text-gray-400">
-                  Worked on the Large Language Model (LLM) project, which
-                  specifically focused on developing a language model that can
-                  generate human-like text. The model was trained on a large
-                  dataset of text and was able to generate text that was
-                  indistinguishable from human-written text.
-                </p> */}
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Worked on the Large Language Model (LLM), which specifically
+                  focused on developing a language model that can generate
+                  human-like text. The model was trained on a large dataset of
+                  text and was able to generate text that was indistinguishable
+                  from human-written text.
+                  <Link
+                    href="https://dev-app.guidizy.com"
+                    className="text-orange-600 ml-2"
+                  >
+                     Learn more
+                  </Link>
+                </p>
                 <div className="grid gap-2">
                   <div className="flex items-center justify-between">
                     <h4 className="text-lg font-medium">
                       Quality Assurance Engineer | Guidizy Ltd
                     </h4>
                     <p className="text-gray-500 dark:text-gray-400">
-                      2022 - Present
+                      2024 - 2025
                     </p>
                   </div>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Currently my primary role is to make sure the client
-                    application and all its affiliate systems are all stable for
-                    use. From end to end testing to maintaining contents to
-                    guidizy main website.
+                    Basically my primary role was to make sure the client
+                    application and all its affiliate systems were all stable
+                    for use. From end to end testing to maintaining contents to
+                    guidizy main website. And also to make sure the application
+                    is SEO friendly.
+                    <Link
+                      href="https://dev-app.guidizy.com"
+                      className="text-orange-600 ml-2"
+                    >
+                      Learn more
+                    </Link>
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <Badge>Jira/Trello</Badge>
@@ -206,6 +228,8 @@ export default function Profile() {
                     <Badge>Technical Writing</Badge>
                     <Badge>Python</Badge>
                     <Badge>TypeScript</Badge>
+                    <Badge>MUI</Badge>
+                    <Badge>Node.js</Badge>
                     <Badge>Reactjs</Badge>
                     <Badge>LangChain</Badge>
                     <Badge>Gitlab</Badge>
@@ -214,12 +238,6 @@ export default function Profile() {
                     <Badge>Ovh Cloud</Badge>
                     <Badge>LLM</Badge>
                   </div>
-                  <p>
-                  About Guidizy(Maya Innovation) -
-                  <Link href="https://guidizy.com" className="text-orange-600">
-                     Learn more 
-                  </Link>
-                  </p>
                 </div>
               </div>
 
@@ -239,7 +257,7 @@ export default function Profile() {
                   Worked on the both front-end & backend development of Edu SaaS
                   platform, implementing responsive designs and integrating with
                   various APIs.{" "}
-                  <Link href="https://zstudy.com" className="text-orange-600">
+                  <Link href="https://www.zstudy.co/" className="text-orange-600">
                     Learn more
                   </Link>
                 </p>

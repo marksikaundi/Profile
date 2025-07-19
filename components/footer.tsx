@@ -23,6 +23,11 @@ export function Footer() {
               <div className="space-y-3">
                 <h4 className="text-md font-medium">Projects</h4>
                 <ul className="space-y-2 text-sm">
+                  <li>
+                    <Link href="https://www.lystica.cloud/" className="hover:underline">
+                      Lystica
+                    </Link>
+                  </li>
                 <li>
                     <Link href="https://devcircleafrica.com" className="hover:underline">
                       DevCircle Africa

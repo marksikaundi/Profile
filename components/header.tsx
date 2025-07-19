@@ -44,20 +44,20 @@ export function Header() {
             </svg>
           </button>
         </div>
-
+              {/* TODO */}
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <Link href="/indie-pro">Indie-Pro</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/#indie-pro">Indie-Pro</Link>
+          <Link href="/#projects">Projects</Link>
+          <Link href="https://www.devcircleafrica.com/blog">Blog</Link>
+          <Link href="/#contact">Contact</Link>
         </nav>
 
         {/* Desktop CTA button */}
         <div className="hidden md:flex items-center space-x-2">
           <div className="flex-none">
-            <Button variant="outline">
-              <Link href="/contact">Get in touch</Link>
+            <Button className="bg-black hover:bg-black text-white hover:text-white" variant="outline">
+              <Link href="/#contact">Get in touch</Link>
             </Button>
           </div>
         </div>
