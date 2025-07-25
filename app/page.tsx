@@ -18,7 +18,6 @@ import {
 import { FaGolang } from "react-icons/fa6";
 import { FcLinux } from "react-icons/fc";
 import { GrGraphQl } from "react-icons/gr";
-import { IoLogoJavascript } from "react-icons/io";
 import { PiFileSqlBold } from "react-icons/pi";
 import { RiJavascriptFill, RiNextjsFill, RiSupabaseFill } from "react-icons/ri";
 import {
@@ -76,8 +75,6 @@ export default function Profile() {
               value clean code, performance driven development, and
               collaborative teamwork. I’ve contributed to agile development
               teams, led technical reviews, and mentored junior developers.
-              Above all, I’m passionate about solving real world problems
-              through technology and always eager to learn, explore, and build
               {/* what’s next. I have participated in various Data Science
               competions from{" "}
               <Link
@@ -418,7 +415,7 @@ export default function Profile() {
                     Software Engineer | DevCircle Africa
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
-                    2019 - 2023
+                    2019 - 2022
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
