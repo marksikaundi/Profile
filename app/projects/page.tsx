@@ -5,25 +5,46 @@ import Image from "next/image";
 export default function IndiePro() {
   const projects = [
     {
-      title: "Pexelper",
+      title: "Lystica",
       description:
-        "A powerful image search and manipulation tool that helps developers and designers find and process high-quality images seamlessly.",
-      link: "https://pexelper.vercel.app",
-      image: "/projects/pexelper-cover.jpg",
+      "A database platform where you can run your email marketing campaigns, manage your contacts, and track your performance metrics.",
+      link: "https://lystica.cloud",
+      image: "/projects/lys.png",
+    },
+    {
+      title: "DevCircle Africa",
+      description:
+        "A community-driven platform that connects African developers, providing resources, networking opportunities, and collaborative projects to foster growth and innovation.",
+      link: "https://devcircleafrica.com",
+      image: "/projects/devc.png",
+    },
+    {
+      title: "LinkSnap",
+      description:
+      "A simple way to create and share your ebusiness card with a single link. It allows you to showcase your business, products, and services in a visually appealing way.",
+      link: "https://preview--link-in-a-snap.lovable.app/",
+      image: "/projects/link.png",
+    },
+     {
+      title: "PixelPer",
+      description:
+        "A platform that allows you to create and share your own pixel art, with a focus on community engagement and collaboration.",
+      link: "https://pixelper.lupleg.org/",
+      image: "/projects/pix.png",
     },
     {
       title: "Code Timer",
       description:
         "An intelligent coding productivity tool that helps developers track and optimize their coding sessions with detailed analytics and insights.",
-      link: "https://codetimer.vercel.app",
-      image: "/projects/codetimer-cover.jpg",
+      link: "https://timer.lupleg.org/",
+      image: "/projects/code.png",
     },
     {
       title: "Mentor",
       description:
         "A platform connecting aspiring developers with experienced mentors, facilitating knowledge sharing and career growth in the tech industry.",
-      link: "https://mentor-platform.vercel.app",
-      image: "/projects/mentor-cover.jpg",
+      link: "https://mentor.lupleg.org/auth",
+      image: "/projects/mentor.png",
     },
   ];
 
@@ -50,7 +71,7 @@ export default function IndiePro() {
               <p className="text-gray-600 mb-4">{project.description}</p>
               <Link
                 href={project.link}
-                className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
+                className="inline-block bg-black text-white px-4 py-2 rounded-md hover:bg-black transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >

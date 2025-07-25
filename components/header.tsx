@@ -44,11 +44,10 @@ export function Header() {
             </svg>
           </button>
         </div>
-              {/* TODO */}
+        {/* TODO */}
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <Link href="/#indie-pro">Indie-Pro</Link>
-          <Link href="/#projects">Projects</Link>
+          <Link href="/projects">Projects</Link>
           <Link href="https://www.devcircleafrica.com/blog">Blog</Link>
           <Link href="mailto:sikaundimark@gmail.com">Contact</Link>
         </nav>
@@ -56,7 +55,10 @@ export function Header() {
         {/* Desktop CTA button */}
         <div className="hidden md:flex items-center space-x-2">
           <div className="flex-none">
-            <Button className="bg-black hover:bg-black text-white hover:text-white" variant="outline">
+            <Button
+              className="bg-black hover:bg-black text-white hover:text-white"
+              variant="outline"
+            >
               <Link href="mailto:sikaundimark@gmail.com">Get in touch</Link>
             </Button>
           </div>
@@ -67,16 +69,16 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t">
           <div className="container px-4 py-3 space-y-3">
-            <Link href="/indie-pro" className="block text-sm">
-              Indie-Pro
-            </Link>
             <Link href="/projects" className="block text-sm">
               Projects
             </Link>
             <Link href="/blog" className="block text-sm">
               Blog
             </Link>
-            <Link href="mailto:sikaundimark@gmail.com" className="block text-sm">
+            <Link
+              href="mailto:sikaundimark@gmail.com"
+              className="block text-sm"
+            >
               Contact
             </Link>
             <div className="pt-2">
