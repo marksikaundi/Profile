@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -56,10 +57,19 @@ export function Header() {
         <div className="hidden md:flex items-center space-x-2">
           <div className="flex-none">
             <Button
-              className="bg-black hover:bg-black text-white hover:text-white"
+              className="bg-black hover:bg-black text-white hover:text-white rounded-full px-4 py-2"
               variant="outline"
             >
-              <Link href="mailto:sikaundimark@gmail.com">Get in touch</Link>
+              {" "}
+              My
+              <Link
+                href="https://github.com/marksikaundi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub className="mr-2" />
+                {/* GitHub */}
+              </Link>
             </Button>
           </div>
         </div>
