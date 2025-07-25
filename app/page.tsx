@@ -2,6 +2,41 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
+import { BiLogoNetlify, BiLogoPostgresql } from "react-icons/bi";
+import { DiHeroku } from "react-icons/di";
+import {
+  FaAws,
+  FaGit,
+  FaGithub,
+  FaGitlab,
+  FaLinkedin,
+  FaNodeJs,
+  FaPython,
+  FaTwitter,
+  FaUbuntu,
+} from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
+import { FcLinux } from "react-icons/fc";
+import { GrGraphQl } from "react-icons/gr";
+import { IoLogoJavascript } from "react-icons/io";
+import { PiFileSqlBold } from "react-icons/pi";
+import { RiJavascriptFill, RiNextjsFill, RiSupabaseFill } from "react-icons/ri";
+import {
+  SiDbeaver,
+  SiGooglecloud,
+  SiParrotsecurity,
+  SiMongodb,
+  SiPostman,
+  SiPycharm,
+  SiRedis,
+  SiTypescript,
+  SiVercel,
+  SiWebstorm,
+  SiNeovim,
+  SiExpress,
+  SiApollographql,
+} from "react-icons/si";
+import { VscTerminalPowershell, VscVscode } from "react-icons/vsc";
 
 export default function Profile() {
   return (
@@ -28,12 +63,23 @@ export default function Profile() {
           <div className="space-y-2">
             <h3 className="text-xl font-bold">About Me</h3>
             <p className="text-gray-500 dark:text-gray-400">
-              I am a passionate Artificial Intelligence(AI) Researcher &
-              Software Engineer with over 5 years of experience in building
-              softwares. I have a strong background in Python, JavaScript,
-              React, Nextjs Node.js, and various databases. I am always eager to
-              learn new technologies and tackle challenging projects. I have
-              participated in various Data Science competions from{" "}
+              I’m a Software Engineer and Artificial Intelligence Researcher
+              with over 5 years of experience building scalable, efficient, and
+              user-focused applications. My work spans across FullStack web
+              development and cutting edge AI research, with strong proficiency
+              in Python, JavaScript, TypeScript, and frameworks like React,
+              Next.js, Node.js, PyTorch, and TensorFlow. Throughout my career,
+              I’ve developed projects ranging from responsive web platforms to
+              intelligent systems in NLP, computer vision, and reinforcement
+              learning. I’m also well versed in RESTful API design, database
+              management, and deploying cloud- based solutions on AWS and GCP. I
+              value clean code, performance driven development, and
+              collaborative teamwork. I’ve contributed to agile development
+              teams, led technical reviews, and mentored junior developers.
+              Above all, I’m passionate about solving real world problems
+              through technology and always eager to learn, explore, and build
+              {/* what’s next. I have participated in various Data Science
+              competions from{" "}
               <Link
                 href="https://zindi.africa/users/Marksikaundi"
                 className="text-orange-600"
@@ -47,48 +93,273 @@ export default function Profile() {
               >
                 {" "}
                 Kaggle.
-              </Link>
+              </Link> */}
             </p>
           </div>
+          {/* Core Skills */}
           <div className="space-y-2">
             <h3 className="text-xl font-bold">Core Skills</h3>
             <div className="flex flex-wrap gap-2">
-              <Badge>Python</Badge>
-              <Badge>Pytorch</Badge>
-              <Badge>Tensorflow</Badge>
-              <Badge>JavaScript</Badge>
-              <Badge>TypeScript</Badge>
-              <Badge>Reactjs/Nextjs</Badge>
-              <Badge>Node.js/Expressjs</Badge>
-              <Badge>MongoDB</Badge>
-              <Badge>Convex</Badge>
-              <Badge>REST API</Badge>
-              <Badge>SQL</Badge>
-              <Badge>Git/GitHub</Badge>
-              <Badge>AWS/GCP</Badge>
-              <Badge>Database</Badge>
+              <Badge>Software Development</Badge>
+              <Badge>IT Support</Badge>
               <Badge>Networking</Badge>
+              <Badge>Cyber Security</Badge>
+              <Badge>Agile</Badge>
+              <Badge>Mentoring</Badge>
+              <Badge>Quality Assurance</Badge>
+              <Badge>Hardware Troubleshooting</Badge>
               <Badge>Technical Writing</Badge>
-              <Badge>WordPress</Badge>
-              <Badge>SEO</Badge>
-              <Badge>CMS</Badge>
-              <Badge>Hosting</Badge>
+              <Badge>Data Analysis</Badge>
+              <Badge>Cloud Computing</Badge>
             </div>
           </div>
+
+          {/* Programming Languages  */}
           <div className="space-y-2">
-            <h3 className="text-xl font-bold">Hobbies</h3>
+            <h3 className="text-xl mt-10 font-bold">Programming & Tools</h3>
             <div className="flex flex-wrap gap-2">
-              <Badge>Reading</Badge>
-              <Badge>Script Writing</Badge>
-              <Badge>Video Gaming</Badge>
-              <Badge>Podcasting</Badge>
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <RiJavascriptFill className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaNodeJs className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2"
+                prefetch={false}
+              >
+                <SiTypescript className="h-10 w-10 text-orange-600" />
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaPython className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaGolang className="h-10 w-10 text-orange-600" />
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <PiFileSqlBold className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <RiNextjsFill className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiExpress className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <GrGraphQl className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiApollographql className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <VscTerminalPowershell className="h-10 w-10 text-orange-600" />
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaUbuntu className="h-10 w-10 text-orange-600" />
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FcLinux className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiParrotsecurity className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiWebstorm className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <BiLogoPostgresql className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiPycharm className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaGit className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <VscVscode className="h-10 w-10 text-orange-600" />
+              </Link>
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiNeovim className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiPostman className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiVercel className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaAws className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiGooglecloud className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <RiSupabaseFill className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiMongodb className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiRedis className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <SiDbeaver className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <BiLogoNetlify className="h-10 w-10 text-orange-600" />
+              </Link>
+
+              <Link
+                href="#"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <DiHeroku className="h-10 w-10 text-orange-600" />
+              </Link>
             </div>
           </div>
+
           {/* University Attended */}
           <div className="space-y-2">
             <h3 className="text-xl font-bold">
-              Chalimbana University -{" "}
-              <span className="text-orange-600 ">Computer Science</span>
+              University of Phoenix -{" "}
+              <span className="text-orange-600 ">Bsc in Computer Science</span>
             </h3>
             {/*
               <div className="flex flex-wrap gap-2">
@@ -96,32 +367,18 @@ export default function Profile() {
               </div>
               */}
           </div>
+
+          {/* Connect with Me */}
           <div className="space-y-2">
             <h3 className="text-xl mt-10 font-bold">Connect with Me</h3>
             <div className="flex flex-wrap gap-2">
-              <Link
-                href="https://x.com/Alisikaundi"
-                className="flex items-center gap-2"
-                prefetch={false}
-              >
-                <TwitterIcon className="h-5 w-5 text-orange-600" />
-                @Alisikaundi
-              </Link>
-              <Link
-                href="https://linkedin.com/in/marksikaundi"
-                className="flex items-center gap-2 "
-                prefetch={false}
-              >
-                <LinkedinIcon className="h-5 w-5 text-orange-600" />
-                /MarkSikaundi
-              </Link>
               <Link
                 href="https://gitlab.com/marksikaundi"
                 className="flex items-center gap-2 "
                 prefetch={false}
               >
-                <GitlabIcon className="h-5 w-5 text-orange-600" />
-                /MarkSikaundi
+                <FaGithub className="h-5 w-5 text-orange-600" />
+                MarkSikaundi
               </Link>
 
               <Link
@@ -129,8 +386,24 @@ export default function Profile() {
                 className="flex items-center gap-2 "
                 prefetch={false}
               >
-                <GitlabIcon className="h-5 w-5 text-orange-600" />
-                /MarkSikaundi
+                <FaGitlab className="h-5 w-5 text-orange-600" />
+                MarkSikaundi
+              </Link>
+              <Link
+                href="https://x.com/Alisikaundi"
+                className="flex items-center gap-2"
+                prefetch={false}
+              >
+                <FaTwitter className="h-5 w-5 text-orange-600" />
+                @Alisikaundi
+              </Link>
+              <Link
+                href="https://linkedin.com/in/marksikaundi"
+                className="flex items-center gap-2 "
+                prefetch={false}
+              >
+                <FaLinkedin className="h-5 w-5 text-orange-600" />
+                MarkSikaundi
               </Link>
             </div>
           </div>
@@ -145,14 +418,14 @@ export default function Profile() {
                     Software Engineer | DevCircle Africa
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
-                    2019 - Present
+                    2019 - 2023
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
                   Developed and maintained a complex web application for a
                   leading community platform. Utilized React, Node.js, MongoDB,
                   and various other technologies to deliver a seamless user
-                  experience.{" "}
+                  experience.
                   <Link
                     href="https://devicircleafrica.com"
                     className="text-orange-600"
@@ -175,14 +448,48 @@ export default function Profile() {
                 <hr className="m-2" />
               </div>
 
+              <div className="grid gap-2">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-lg font-medium">
+                    Software Engineer | Andela Nigeria
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    Open Source Contributor
+                  </p>
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Contributed to various open source projects, focusing on
+                  improving code quality, adding new features, and fixing bugs.
+                  Worked with a team of developers to enhance the functionality
+                  and performance of the projects.
+                  <Link
+                    href="https://www.andela.com/"
+                    className="text-orange-600"
+                  >
+                    Learn more
+                  </Link>
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>React</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>JavaScript</Badge>
+                  <Badge>Tailwind CSS</Badge>
+                  <Badge>Node.js</Badge>
+                  <Badge>MongoDB</Badge>
+                  <Badge>REST API</Badge>
+                  <Badge>Squalizer</Badge>
+                </div>
+                <hr className="m-2" />
+              </div>
+
               {/* Maya Innovation */}
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
-                    Software Developer | Maya Innovation
+                    Software Engineer | Maya Innovation
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
-                    2022 - 2023
+                    2022 - 2024
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
@@ -195,7 +502,7 @@ export default function Profile() {
                     href="https://dev-app.guidizy.com"
                     className="text-orange-600 ml-2"
                   >
-                     Learn more
+                   Learn more
                   </Link>
                 </p>
                 <div className="grid gap-2">
@@ -257,7 +564,10 @@ export default function Profile() {
                   Worked on the both front-end & backend development of Edu SaaS
                   platform, implementing responsive designs and integrating with
                   various APIs.{" "}
-                  <Link href="https://www.zstudy.co/" className="text-orange-600">
+                  <Link
+                    href="https://www.zstudy.co/"
+                    className="text-orange-600"
+                  >
                     Learn more
                   </Link>
                 </p>
@@ -309,64 +619,5 @@ export default function Profile() {
         </div>
       </div>
     </div>
-  );
-}
-
-function GitlabIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m22 13.29-3.33-10a.42.42 0 0 0-.14-.18.38.38 0 0 0-.22-.11.39.39 0 0 0-.23.07.42.42 0 0 0-.14.18l-2.26 6.67H8.32L6.1 3.26a.42.42 0 0 0-.1-.18.38.38 0 0 0-.26-.08.39.39 0 0 0-.23.07.42.42 0 0 0-.14.18L2 13.29a.74.74 0 0 0 .27.83L12 21l9.69-6.88a.71.71 0 0 0 .31-.83Z" />
-    </svg>
-  );
-}
-
-function LinkedinIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect width="4" height="12" x="2" y="9" />
-      <circle cx="4" cy="4" r="2" />
-    </svg>
-  );
-}
-
-function TwitterIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-    </svg>
   );
 }
