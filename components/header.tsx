@@ -7,11 +7,12 @@ import { FaGithub } from "react-icons/fa";
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center justify-between px-4 md:px-8 mx-auto max-w-7xl">
         <div className="flex w-full items-center justify-between md:w-auto">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
+          <Link onClick={() => setIsMenuOpen(false)} href="/" className="mr-6 flex items-center space-x-2">
             <span className="text-xl font-bold">Mark Sikaundi</span>
           </Link>
 
@@ -79,20 +80,21 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t">
           <div className="container px-4 py-3 space-y-3">
-            <Link href="/projects" className="block text-sm">
+            <Link onClick={() => setIsMenuOpen(false)} href="/projects" className="block text-sm">
               Projects
             </Link>
-            <Link href="/blog" className="block text-sm">
+            <Link onClick={() => setIsMenuOpen(false)} href="/blog" className="block text-sm">
               Blog
             </Link>
             <Link
+              onClick={() => setIsMenuOpen(false)}
               href="mailto:sikaundimark@gmail.com"
               className="block text-sm"
             >
               Contact
             </Link>
             <div className="pt-2">
-              <Button variant="outline" className="w-full justify-center">
+              <Button onClick={() => setIsMenuOpen(false)} variant="outline" className="w-full justify-center">
                 <Link href="mailto:sikaundimark@gmail.com">Get in touch</Link>
               </Button>
             </div>
