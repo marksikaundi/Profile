@@ -409,6 +409,44 @@ export default function Profile() {
           <div className="space-y-2">
             <h3 className="text-xl font-bold">Work Experience</h3>
             <div className="space-y-4">
+              <hr className="m-2" />
+              {/* Electoral Commission of Zambia */}
+              <div className="grid gap-2">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-lg font-medium">
+                    TSO | Electoral Commission of Zambia
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    2025 - Present
+                  </p>
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Developed and maintained a complex web application for a
+                  leading community platform. Utilized React, Node.js, MongoDB,
+                  and various other technologies to deliver a seamless user
+                  experience.
+                  <Link
+                    href="https://www.elections.org.zm"
+                    className="text-orange-600"
+                  >
+                    Learn more
+                  </Link>
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>React</Badge>
+                  <Badge>Next.js</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Tailwind CSS</Badge>
+                  <Badge>Node.js</Badge>
+                  <Badge>MongoDB</Badge>
+                  <Badge>Convex</Badge>
+                  <Badge>REST API</Badge>
+                  <Badge>HTML/CSS/JS</Badge>
+                  <Badge>CMS</Badge>
+                </div>
+                <hr className="m-2" />
+              </div>
+
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
@@ -499,7 +537,7 @@ export default function Profile() {
                     href="https://dev-app.guidizy.com"
                     className="text-orange-600 ml-2"
                   >
-                   Learn more
+                    Learn more
                   </Link>
                 </p>
                 <div className="grid gap-2">
