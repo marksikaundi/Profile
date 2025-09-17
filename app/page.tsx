@@ -355,8 +355,8 @@ export default function Profile() {
           {/* University Attended */}
           <div className="space-y-2">
             <h3 className="text-xl font-bold">
-              Information & Communication University -{" "}
-              <span className="text-orange-600 ">BeEng</span>
+              Information & Communication University(ICU) -{" "}
+              <span className="text-orange-600 ">BSc`SEng</span>
             </h3>
             {/*
               <div className="flex flex-wrap gap-2">
