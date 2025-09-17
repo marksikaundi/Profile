@@ -11,6 +11,44 @@ export default function Works() {
           <div className="space-y-2">
             <h3 className="text-xl font-bold">Work Experience</h3>
             <div className="space-y-4">
+
+            {/* Electrol Commision of Zambia */}
+            <div className="grid gap-2">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-lg font-medium">
+                    TSO | Electrol Commision of Zambia
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    Sept 2025 - Present 
+                  </p>
+                </div>
+                <p className="text-gray-500 dark:text-gray-400">
+                  Developed and maintained a complex web application for a
+                  leading community platform. Utilized React, Node.js, MongoDB,
+                  and various other technologies to deliver a seamless user
+                  experience.
+                  <Link
+                    href="https://devicircleafrica.com"
+                    className="text-orange-600"
+                  >
+                    Learn more
+                  </Link>
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge>React</Badge>
+                  <Badge>Next.js</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Tailwind CSS</Badge>
+                  <Badge>Node.js</Badge>
+                  <Badge>MongoDB</Badge>
+                  <Badge>Convex</Badge>
+                  <Badge>REST API</Badge>
+                  <Badge>HTML/CSS/JS</Badge>
+                  <Badge>CMS</Badge>
+                </div>
+                <hr className="m-2" />
+              </div>
+
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
