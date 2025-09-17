@@ -355,8 +355,8 @@ export default function Profile() {
           {/* University Attended */}
           <div className="space-y-2">
             <h3 className="text-xl font-bold">
-              University of Phoenix -{" "}
-              <span className="text-orange-600 ">Bsc in Computer Science</span>
+              Information & Communication University -{" "}
+              <span className="text-orange-600 ">BeEng</span>
             </h3>
             {/*
               <div className="flex flex-wrap gap-2">
@@ -421,13 +421,16 @@ export default function Profile() {
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Technical Support Officers at the Electoral Commission of Zambia <b className="text-black">(ECZ)</b> provide frontline 
-                  IT and systems support to ensure smooth and secure electoral processes. Responsible 
-                  for installing, configuring, and maintaining computer hardware, software, and network systems 
-                  used in voter registration, election monitoring, and results transmission.
-
-                  Their role includes troubleshooting technical issues, supporting users across ECZ offices and polling 
-                  stations, safeguarding data integrity, and ensuring compliance with ICT security standards. 
+                  Technical Support Officers at the Electoral Commission of
+                  Zambia <b className="text-black">(ECZ)</b> provide frontline
+                  IT and systems support to ensure smooth and secure electoral
+                  processes. Responsible for installing, configuring, and
+                  maintaining computer hardware, software, and network systems
+                  used in voter registration, election monitoring, and results
+                  transmission. Their role includes troubleshooting technical
+                  issues, supporting users across ECZ offices and polling
+                  stations, safeguarding data integrity, and ensuring compliance
+                  with ICT security standards.
                   <Link
                     href="https://www.elections.org.zm"
                     className="text-orange-600"
@@ -435,7 +438,7 @@ export default function Profile() {
                     Learn more
                   </Link>
                 </p>
-                
+
                 <hr className="m-2" />
               </div>
 

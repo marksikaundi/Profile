@@ -10,3 +10,38 @@
 2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:27) Destination path set destPath=/Users/marksikaundi/.cache/codacy/runtimes/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
 2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:47) Making HTTP GET request url=https://github.com/astral-sh/python-build-standalone/releases/download/20250317/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
 2025-09-17T15:01:53+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:69) Downloading file content
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.351.sha.73051d7 (73051d7) built at 2025-08-01T10:16:58Z
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.351.sha.73051d7/codacy-cli-v2 install] args=[] command=install
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:78) Starting installation process
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:107) Runtime scheduled for installation runtime=python version=3.11.11
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:107) Runtime scheduled for installation runtime=dart version=3.7.2
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:107) Runtime scheduled for installation version=1.22.3 runtime=go
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:107) Runtime scheduled for installation runtime=java version=17.0.10
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:107) Runtime scheduled for installation runtime=node version=22.2.0
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=trivy version=0.59.1
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=eslint version=8.57.0
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=pmd version=7.11.0
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=dartanalyzer version=3.7.2
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=lizard version=1.17.19
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=pylint version=3.3.6
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation version=1.7.0 tool=revive
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:116) Tool scheduled for installation tool=semgrep version=1.78.0
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:157) Installing runtime runtime=python version=3.11.11
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:107) Using existing runtime download runtime=python version=3.11.11 downloadPath=/Users/marksikaundi/.cache/codacy/runtimes/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:122) Extracting runtime extractDirectory=/Users/marksikaundi/.cache/codacy/runtimes runtime=python version=3.11.11 fileName=cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
+2025-09-17T15:02:42+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:100) Failed to extract archive error=handling file: python/lib/libpython3.11.dylib: failed to copy file contents for /Users/marksikaundi/.cache/codacy/runtimes/python/lib/libpython3.11.dylib: unexpected EOF
+2025-09-17T15:02:42+02:00 [ERROR] (codacy-cli-v2/cmd/install.go:163) Failed to install runtime error=failed to download and extract runtime python: failed to extract runtime: failed to extract archive: handling file: python/lib/libpython3.11.dylib: failed to copy file contents for /Users/marksikaundi/.cache/codacy/runtimes/python/lib/libpython3.11.dylib: unexpected EOF runtime=python version=3.11.11
+2025-09-17T15:02:42+02:00 [INFO] (codacy-cli-v2/cmd/install.go:157) Installing runtime runtime=dart version=3.7.2
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:94) Downloading runtime downloadPath=/Users/marksikaundi/.cache/codacy/runtimes/dartsdk-macos-x64-release.zip runtime=dart version=3.7.2 downloadURL=https://storage.googleapis.com/dart-archive/channels/stable/release/3.7.2/sdk/dartsdk-macos-x64-release.zip
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:15) Attempting to download from URL url=https://storage.googleapis.com/dart-archive/channels/stable/release/3.7.2/sdk/dartsdk-macos-x64-release.zip
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:21) Target filename determined fileName=dartsdk-macos-x64-release.zip
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:27) Destination path set destPath=/Users/marksikaundi/.cache/codacy/runtimes/dartsdk-macos-x64-release.zip
+2025-09-17T15:02:42+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:47) Making HTTP GET request url=https://storage.googleapis.com/dart-archive/channels/stable/release/3.7.2/sdk/dartsdk-macos-x64-release.zip
+2025-09-17T15:02:45+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:69) Downloading file content
+2025-09-17T15:07:43+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:114) Installing download-based tool downloadURL=https://github.com/pmd/pmd/releases/download/pmd_releases%2F7.11.0/pmd-dist-7.11.0-bin.zip tool=pmd version=7.11.0
+2025-09-17T15:07:43+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:267) Downloading tool tool=pmd version=7.11.0 downloadURL=https://github.com/pmd/pmd/releases/download/pmd_releases%2F7.11.0/pmd-dist-7.11.0-bin.zip downloadPath=/Users/marksikaundi/.cache/codacy/tools/pmd-dist-7.11.0-bin.zip
+2025-09-17T15:07:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:15) Attempting to download from URL url=https://github.com/pmd/pmd/releases/download/pmd_releases%2F7.11.0/pmd-dist-7.11.0-bin.zip
+2025-09-17T15:07:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:21) Target filename determined fileName=pmd-dist-7.11.0-bin.zip
+2025-09-17T15:07:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:27) Destination path set destPath=/Users/marksikaundi/.cache/codacy/tools/pmd-dist-7.11.0-bin.zip
+2025-09-17T15:07:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:47) Making HTTP GET request url=https://github.com/pmd/pmd/releases/download/pmd_releases%2F7.11.0/pmd-dist-7.11.0-bin.zip
+2025-09-17T15:07:53+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:69) Downloading file content
