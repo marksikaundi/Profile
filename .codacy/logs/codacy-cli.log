@@ -1,0 +1,12 @@
+2025-09-17T15:01:36+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.351.sha.73051d7 (73051d7) built at 2025-08-01T10:16:58Z
+2025-09-17T15:01:36+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command args=[] command=init full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.351.sha.73051d7/codacy-cli-v2 init]
+2025-09-17T15:01:43+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.351.sha.73051d7 (73051d7) built at 2025-08-01T10:16:58Z
+2025-09-17T15:01:43+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.351.sha.73051d7/codacy-cli-v2 analyze /Users/marksikaundi/Documents/progress/Profile/app/page.tsx --format sarif] args=[/Users/marksikaundi/Documents/progress/Profile/app/page.tsx] command=analyze
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool tool=lizard version=1.17.19
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation tool=lizard version=1.17.19
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:94) Downloading runtime version=3.11.11 downloadURL=https://github.com/astral-sh/python-build-standalone/releases/download/20250317/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz downloadPath=/Users/marksikaundi/.cache/codacy/runtimes/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz runtime=python
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:15) Attempting to download from URL url=https://github.com/astral-sh/python-build-standalone/releases/download/20250317/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:21) Target filename determined fileName=cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:27) Destination path set destPath=/Users/marksikaundi/.cache/codacy/runtimes/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
+2025-09-17T15:01:43+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:47) Making HTTP GET request url=https://github.com/astral-sh/python-build-standalone/releases/download/20250317/cpython-3.11.11+20250317-x86_64-apple-darwin-install_only.tar.gz
+2025-09-17T15:01:53+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:69) Downloading file content

@@ -414,17 +414,20 @@ export default function Profile() {
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
-                    TSO | Electoral Commission of Zambia
+                    TSO (II) | Electoral Commission of Zambia
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2025 - Present
                   </p>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Developed and maintained a complex web application for a
-                  leading community platform. Utilized React, Node.js, MongoDB,
-                  and various other technologies to deliver a seamless user
-                  experience.
+                  Technical Support Officers at the Electoral Commission of Zambia <b className="text-black">(ECZ)</b> provide frontline 
+                  IT and systems support to ensure smooth and secure electoral processes. Responsible 
+                  for installing, configuring, and maintaining computer hardware, software, and network systems 
+                  used in voter registration, election monitoring, and results transmission.
+
+                  Their role includes troubleshooting technical issues, supporting users across ECZ offices and polling 
+                  stations, safeguarding data integrity, and ensuring compliance with ICT security standards. 
                   <Link
                     href="https://www.elections.org.zm"
                     className="text-orange-600"
@@ -432,18 +435,7 @@ export default function Profile() {
                     Learn more
                   </Link>
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>React</Badge>
-                  <Badge>Next.js</Badge>
-                  <Badge>TypeScript</Badge>
-                  <Badge>Tailwind CSS</Badge>
-                  <Badge>Node.js</Badge>
-                  <Badge>MongoDB</Badge>
-                  <Badge>Convex</Badge>
-                  <Badge>REST API</Badge>
-                  <Badge>HTML/CSS/JS</Badge>
-                  <Badge>CMS</Badge>
-                </div>
+                
                 <hr className="m-2" />
               </div>
 
