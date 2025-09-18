@@ -358,11 +358,6 @@ export default function Profile() {
               Information & Communication University(ICU) -{" "}
               <span className="text-orange-600 ">BSc`SEng</span>
             </h3>
-            {/*
-              <div className="flex flex-wrap gap-2">
-                <Badge>Class 2022</Badge>
-              </div>
-              */}
           </div>
 
           {/* Connect with Me */}
