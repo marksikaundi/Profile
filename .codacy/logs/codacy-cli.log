@@ -84,3 +84,19 @@
 2025-09-18T17:15:35+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:21) Target filename determined fileName=trivy_0.66.0_macOS-64bit.tar.gz
 2025-09-18T17:15:35+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:27) Destination path set destPath=/Users/marksikaundi/.cache/codacy/tools/trivy_0.66.0_macOS-64bit.tar.gz
 2025-09-18T17:15:35+02:00 [DEBUG] (codacy-cli-v2/utils/download.go:47) Making HTTP GET request url=https://github.com/aquasecurity/trivy/releases/download/v0.66.0/trivy_0.66.0_macOS-64bit.tar.gz
+2025-09-20T15:58:34+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.351.sha.73051d7 (73051d7) built at 2025-08-01T10:16:58Z
+2025-09-20T15:58:34+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.351.sha.73051d7/codacy-cli-v2 analyze /Users/marksikaundi/Documents/progress/Profile/app/1758376709893-page.tsx --format sarif] args=[/Users/marksikaundi/Documents/progress/Profile/app/1758376709893-page.tsx] command=analyze
+2025-09-20T15:58:34+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:114) Installing download-based tool tool=trivy version=0.66.0 downloadURL=https://github.com/aquasecurity/trivy/releases/download/v0.66.0/trivy_0.66.0_macOS-64bit.tar.gz
+2025-09-20T15:58:34+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:280) Using existing tool download tool=trivy version=0.66.0 downloadPath=/Users/marksikaundi/.cache/codacy/tools/trivy_0.66.0_macOS-64bit.tar.gz
+2025-09-20T15:58:34+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:301) Extracting tool tool=trivy version=0.66.0 fileName=trivy_0.66.0_macOS-64bit.tar.gz extractDirectory=/Users/marksikaundi/.cache/codacy/tools/trivy@0.66.0
+2025-09-20T15:58:34+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:100) Failed to extract archive error=EOF
+2025-09-20T15:58:34+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:134) Installing runtime-based tool tool=eslint version=8.57.0 runtime=node
+2025-09-20T15:58:34+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:107) Using existing runtime download version=22.2.0 downloadPath=/Users/marksikaundi/.cache/codacy/runtimes/node-v22.2.0-darwin-x64.tar.gz runtime=node
+2025-09-20T15:58:34+02:00 [DEBUG] (codacy-cli-v2/config/runtimes-installer.go:122) Extracting runtime runtime=node version=22.2.0 fileName=node-v22.2.0-darwin-x64.tar.gz extractDirectory=/Users/marksikaundi/.cache/codacy/runtimes
+2025-09-20T15:58:47+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:100) Failed to extract archive error=handling file: node-v22.2.0-darwin-x64/bin/node: failed to copy file contents for /Users/marksikaundi/.cache/codacy/runtimes/node-v22.2.0-darwin-x64/bin/node: unexpected EOF
+2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool version=1.17.31 tool=lizard
+2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation version=1.17.31 tool=lizard
+2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:361) Creating Python virtual environment tool=lizard version=1.17.31 venvDir=/Users/marksikaundi/.cache/codacy/tools/lizard@1.17.31/venv
+2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool version=1.78.0 tool=semgrep
+2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation tool=semgrep version=1.78.0
+2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:361) Creating Python virtual environment version=1.78.0 venvDir=/Users/marksikaundi/.cache/codacy/tools/semgrep@1.78.0/venv tool=semgrep
