@@ -100,3 +100,9 @@
 2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:125) Installing Python tool version=1.78.0 tool=semgrep
 2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:334) Starting Python tool installation tool=semgrep version=1.78.0
 2025-09-20T15:58:47+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:361) Creating Python virtual environment version=1.78.0 venvDir=/Users/marksikaundi/.cache/codacy/tools/semgrep@1.78.0/venv tool=semgrep
+2025-09-20T16:03:25+02:00 [INFO] (codacy-cli-v2/cli-v2.go:27) Starting Codacy CLI version=1.0.0-main.351.sha.73051d7 (73051d7) built at 2025-08-01T10:16:58Z
+2025-09-20T16:03:25+02:00 [INFO] (codacy-cli-v2/cmd/root.go:34) Executing CLI command command=analyze full_command=[/Users/marksikaundi/Library/Caches/Codacy/codacy-cli-v2/1.0.0-main.351.sha.73051d7/codacy-cli-v2 analyze /Users/marksikaundi/Library/Application Support/Code/User/settings.json --format sarif] args=[/Users/marksikaundi/Library/Application Support/Code/User/settings.json]
+2025-09-20T16:03:25+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:114) Installing download-based tool downloadURL=https://github.com/aquasecurity/trivy/releases/download/v0.66.0/trivy_0.66.0_macOS-64bit.tar.gz tool=trivy version=0.66.0
+2025-09-20T16:03:25+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:280) Using existing tool download version=0.66.0 downloadPath=/Users/marksikaundi/.cache/codacy/tools/trivy_0.66.0_macOS-64bit.tar.gz tool=trivy
+2025-09-20T16:03:25+02:00 [DEBUG] (codacy-cli-v2/config/tools-installer.go:301) Extracting tool tool=trivy version=0.66.0 fileName=trivy_0.66.0_macOS-64bit.tar.gz extractDirectory=/Users/marksikaundi/.cache/codacy/tools/trivy@0.66.0
+2025-09-20T16:03:25+02:00 [ERROR] (codacy-cli-v2/utils/extract.go:100) Failed to extract archive error=EOF
