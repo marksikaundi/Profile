@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Mark Sikaundi | Portfolio",
-  description: "A software engineer passionate about building innovative solutions and sharing knowledge with the community.",
+  description: "A software engineer and Technical Support Officer passionate about building innovative solutions and sharing knowledge with the community.",
 };
 
 export default function RootLayout({
