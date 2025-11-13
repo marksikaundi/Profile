@@ -14,8 +14,8 @@ export default function NotFound() {
         Sorry, we couldn&apos;t find the page you&apos;re looking for. It might
         have been moved or deleted.
       </p>
-      <Button asChild>
-        <Link href="/">Return Home</Link>
+      <Button className="bg-black hover:bg-black text-white hover:text-white rounded-full px-4 py-2"  asChild>
+        <Link href="/projects">Check Projects</Link>
       </Button>
     </div>
   );
