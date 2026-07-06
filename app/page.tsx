@@ -354,8 +354,8 @@ export default function Profile() {
 
           <div className="space-y-2">
             <h3 className="text-xl font-bold">
-              Information & Communication University(ICU) -{" "}
-              <span className="text-orange-600 ">BSc`SEng</span>
+              Information & Communication University -{" "}
+              <span className="text-orange-600 ">BSc. Electrical & Electronic Engineering</span>
             </h3>
           </div>
 
@@ -408,7 +408,7 @@ export default function Profile() {
               <div className="grid gap-2">
                 <div className="flex items-center justify-between">
                   <h4 className="text-lg font-medium">
-                    TSO (II) | Electoral Commission of Zambia
+                    TSO | Electoral Commission of Zambia
                   </h4>
                   <p className="text-gray-500 dark:text-gray-400">
                     2025 - Present
