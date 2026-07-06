@@ -51,7 +51,7 @@ const projects = [
     title: "LinkSnap",
     description:
       "Create and share your e-business card with a single link. Showcase your business, products, and services beautifully.",
-    link: "https://preview--link-in-a-snap.lovable.app/",
+    link: "https://linksnap.lupleg.org",
     image: "/projects/link.png",
     tags: ["Link-in-bio", "Business"],
     gradient: "from-fuchsia-500 to-purple-700",
