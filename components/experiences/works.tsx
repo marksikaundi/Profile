@@ -136,7 +136,7 @@ export default function Works() {
                   text and was able to generate text that was indistinguishable
                   from human-written text.
                   <Link
-                    href="https://dev-app.guidizy.com"
+                    href="https://guideazy.com"
                     className="text-orange-600 ml-2"
                   >
                    Learn more
